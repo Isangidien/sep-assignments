@@ -7,4 +7,4 @@ The data elements are all stored as an array, they are sorted, and then searched
 ## What other real-world data can each structure represent?
 - Line data can represent any list of data that can be added, removed, searched and sorted.
 - Screen data can represent a grid like a map.
-- Pixel can represent information and it location relative to a grid.  
+- Pixel can represent information and it location relative to a grid.
