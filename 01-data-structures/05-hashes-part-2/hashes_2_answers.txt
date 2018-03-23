@@ -1,0 +1,9 @@
+There are several different ways to manage collisions in hashes.
+
+One example is double hashing, which functions similarly to open addressed hashing. Double hashing uses the idea of applying a second hash function to the key when a collision occurs. The result of the second hash function will be the number of positions form the point of collision to insert.
+
+A second example is coalesced hashing, which is a hybrid of separate chaining and open addressing. It tries to avoid resizing the given array by placing a new elements in an unoccupied part of the array or by adding them to the back end of one of the existing linked lists upon collision.
+
+Another possible option is hopscotch hashing, which handles collisions by trying to push the new element to a nearby location rather than a location that is farther away in the array.
+
+My collision resolution strategy: store a variable at the beginning of the array (it would be initialized at 0) which shows that the point is currently open for use. If a spot is not open in the array it goes to the beginning openspot. 
