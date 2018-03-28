@@ -6,4 +6,4 @@ A second example is coalesced hashing, which is a hybrid of separate chaining an
 
 Another possible option is hopscotch hashing, which handles collisions by trying to push the new element to a nearby location rather than a location that is farther away in the array.
 
-My collision resolution strategy: store a variable at the beginning of the array (it would be initialized at 0) which shows that the point is currently open for use. If a spot is not open in the array it goes to the beginning openspot. 
+My collision resolution strategy: store a variable at the beginning of the array (it would be initialized at 0) which shows that the point is currently open for use. If a spot is not open in the array it goes to the beginning openspot.
