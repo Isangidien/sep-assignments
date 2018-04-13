@@ -1,0 +1,43 @@
+1) Calculating a tip -
+
+def tip(cost)
+  total_tip = cost
+  total_tip = 2 * total_tip / 10
+  return total_tip
+end
+
+2) Determine what to wear -
+
+def dress(temperature, precipitation)
+  if weather == cold
+    shirt = long_sleeve_shirt
+    pants = jeans
+    cardigan = true
+  else
+    shirt = short_sleeve_shirt
+    pants = shorts
+    cardigan = false
+  end
+  if precipitation == true
+    boots = true
+    umbrella = true
+  else
+    boots = false
+    umbrella = false
+  end
+  return [shirt, pants, cardigan, boots, umbrella]
+end
+
+3) Getting to work -
+
+def work_transportation(is_weekday, time)
+  if is_weekday and time < 0400
+    eat_breakfast
+    wear_helmet
+    return bike
+  elsif is_weekday and time >= 0500
+    drink_coffee
+    grab_keys
+    return car
+  end
+end
