@@ -1,0 +1,4 @@
+Version 1 has a Big-O(n^2)
+
+
+Version 2 & 3 have a Big-O(n log n)
